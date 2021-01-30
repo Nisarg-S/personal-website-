@@ -11,7 +11,7 @@ let projectDetails = [
         shortDescription: 'Flask App to help beginner programmers visual simple and complex sorting algorithms',
         longDescription: 'The Sorting Algorithm Visualizer is a web app written in vanilla JavaScript and served with Flask, it is meant to help a useful aid to help programmers visualize common sorting algorithms. The tool gives a step by step animation of how arrays with values of varrying length are sorted in the following algorithms: Bubble Sort, Insertion Sort, Quick Sort, Merge Sort',
         tags: ['Python', 'JavaScript'],
-        demo: false,
+        demo: 'https://sort.nisargshah.dev',
         github: 'https://github.com/Nisarg-S/Sorting-Algorithm-Visualizer'
     },
     {

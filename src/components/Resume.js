@@ -36,9 +36,9 @@ class Resume extends Component {
             <Grid display='flex' direction='column' justify='center' alignItems='center'>
                 <Header page='RESUME' />
                 <Grid item className='resume-title'>
-                    Click <a href="/Resume.pdf" target='_blank'>here</a>  for a direct link to my resume; I'm currently in the 3rd term of my Computer Engineering degree and actively looking for software engineering internships for Summer 2021
+                    Click <a href="/Nisarg_Shah_Resume.pdf" target='_blank'>here</a>  for a direct link to my resume; I'm currently in the 3rd term of my Computer Engineering degree and actively looking for software engineering internships for Summer 2021
                 </Grid>
-                <Document file="/Resume.pdf" >
+                <Document file="/Nisarg_Shah_Resume.pdf" >
                     <Page pageNumber={1} onLoadSuccess={this.removeTextLayerOffset} className='resume-pdf' width={window.innerWidth * 0.65} />
                 </Document>
             </Grid>
