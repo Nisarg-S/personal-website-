@@ -1,0 +1,38 @@
+.card {
+  max-width: 345px;
+  margin: 20px;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  overflow: visible;
+  box-shadow: 0px 3px 4.6px 0.3px rgba(0, 0, 0, 0.25);
+  transition-duration: 300ms;
+}
+
+.project-image-container {
+  height: 100%;
+  width: 33%;
+  display: inherit;
+}
+
+.project-content-container {
+  height: 100%;
+  width: 66%;
+}
+
+.project-image {
+  /* height: 100%; */
+  min-height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project-tag-element {
+  margin: 0 10px 0 10px;
+  border: 1px solid;
+  padding: 5px 10px 7px 10px;
+  border-radius: 20px;
+  color: white;
+  /* background-color: skyblue; */
+}

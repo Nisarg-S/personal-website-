@@ -1,0 +1,16 @@
+.projects-title {
+  margin-top: 125px !important;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.projects-subtitle {
+  margin-top: 20px;
+  padding: 0 20% 0 20%;
+}
+
+.project-card-container {
+  width: 90%;
+  margin: 5% 0 5% 0;
+}

@@ -1,0 +1,10 @@
+.resume-title {
+  margin-top: 125px !important;
+  padding: 0 20% 0 20%;
+}
+
+.resume-pdf {
+  display: inline !important;
+  width: 80% !important;
+  height: auto !important;
+}

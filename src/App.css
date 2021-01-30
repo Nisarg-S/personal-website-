@@ -1,7 +1,25 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/src/assets/fonts/Montserrat-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('/src/assets/fonts/Roboto-Regular.ttf') format('truetype');
 }
 
+.App {
+  text-align: center;
+  margin: 0 auto;
+  height: 100%;
+  /* overflow: hidden; */
+}
+#root {
+  height: 100vh;
+}
+body {
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
